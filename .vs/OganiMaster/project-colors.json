@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "3ad5e633-c1e6-42f0-bce7-893f0261d73f": {
+      "ProjectGuid": "3ad5e633-c1e6-42f0-bce7-893f0261d73f",
+      "DisplayName": "OganiMaster",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "5b500971-d3b0-4038-91eb-ac75ab51be27": {
+      "ProjectGuid": "5b500971-d3b0-4038-91eb-ac75ab51be27",
+      "DisplayName": "OganiMaster.api",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

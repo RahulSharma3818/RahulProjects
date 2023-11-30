@@ -1,0 +1,46 @@
+﻿<!-- ... (head section remains unchanged) ... -->
+<html>
+<body>
+    <!-- Breadcrumb Section Begin -->
+    <section class="breadcrumb-section set-bg" data-setbg="/img/breadcrumb.jpg">
+        <!-- ... (breadcrumb section remains unchanged) ... -->
+    </section>
+    <!-- Breadcrumb Section End -->
+
+    <!-- Checkout Section Begin -->
+    <section class="checkout spad">
+        <div class="container">
+            <div class="checkout__form">
+                <h4>Customer Sign-Up</h4>
+                <form asp-controller="Customer" asp-action="Confirm" method="post">
+    <div class="row">
+        <div class="col-lg-8 col-md-6">
+            <!-- ... (other form elements) ... -->
+           
+            <div class="checkout__input">
+                <label for="Email">Email</label><br>
+                <input type="text" id="Email" name="Email" >
+               
+            
+            <div class="checkout__input">
+                <label for="Password">Password</label><br>
+                <input type="password" id="Password" name="Password" >
+                
+            </div>
+            
+            <button type="submit" class="site-btn">Sign In</button>
+            
+            <a asp-controller="Customer" asp-action="Index" class="site-btn">
+                Sign UP
+            </a>
+        </div>
+    </div>
+</form>
+
+            </div>
+        </div>
+    </section>
+    <!-- Checkout Section End -->
+</body>
+
+</html>
